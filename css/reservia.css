@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Raleway";
-  src: url(./Raleway/Raleway-VariableFont_wght.ttf);
-}
+  src: url('./Raleway-VariableFont_wght.ttf')  
+  }
 
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -67,7 +67,6 @@ aside img {
   float: left;
   padding: 9px;
   height: 30px;
-  width: 30px;
   border-radius: 3px;
   margin:0px
 }
@@ -119,15 +118,14 @@ a {
   padding-top: 3px;
 }
 
-.inscription a {
-  padding-right: 50px;
+#inscription {
+  position: absolute;
+  top: 10px;
+  right: 10px;
   color: #0065fc;
   text-decoration: none;
 }
-.filtres a:hover {
-  background-color: #bed8ff;
-  width: 100%;
-}
+
 .annonce {
   display: block;
 }
@@ -138,26 +136,7 @@ a {
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-.filtre {
-  background-color: white;
-  color: #0065fc;
-  border: 1px solid #deebff;
-  border-radius: 100px;
-  text-align: center;
-  margin: 15px;
-  padding: 5px;
-}
 
-.fiiltre
-{
-  font-weight: bold;
-}
-.filtres i {
-  background-color: #deebff;
-  border-radius: 100px;
-  padding: 10px;
-  margin-left: -4px;
-}
 .logements img {
   width: 25%;
   margin: 0 auto;
@@ -349,7 +328,9 @@ img {
 
 @media screen and (max-width: 800px) {
   body {
-    width: 100%;  }
+    width: 100%;  
+    margin:0
+    padding: 0}
   h1 {
     font-size: 20px;
   }
