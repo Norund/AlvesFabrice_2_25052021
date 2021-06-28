@@ -218,7 +218,7 @@ a {
 }
 .twothird {
   float: left;
-  width: %;
+  width: 100%;
   padding: 2px;
   margin-right: 25px;
   background-color: #f2f2f2;
