@@ -49,19 +49,20 @@ footer {
 }
 #annonce p {
   font-size: 13px;
-  margin-top: -6px;
+  margin-top: -4px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
 
 .footer_section {
-  font-size: 13px;
-  margin-top: -6px;
+  font-size: 15px;
+  margin-top: -20px;
   margin-bottom: 6px;
 }
 
 .footer_section p{
-  font-size: 9px;
+  font-size: 10px;
+  margin-top: -5px;
 }
 .rating .fas {
   margin-left: 4px;
@@ -94,6 +95,11 @@ aside img {
 .logo img {
   width: 25%;
   height: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 .localisation
 {
