@@ -502,6 +502,7 @@ a {
     order: 2;
     width: 100%;
     padding-right: 15px;
+    padding-left: 15px;
     background-color: rgb(255, 255, 255);
   }
   .third {
