@@ -134,6 +134,7 @@ img {
   text-align: center;
   display: inline-block;
   padding-top: 9.5px;
+  margin-left: -12px;
 }
 .ville__recherche{
   margin-bottom: 15px;
