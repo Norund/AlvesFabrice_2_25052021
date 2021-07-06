@@ -69,10 +69,12 @@ footer {
 .rating{
   margin-top: 32px;
   display: flex;
+  font-size: 10px;
 }
 .rating_popular{
 display: flex;
-padding-bottom: 7px;
+padding: 3px 5px 5px 6px;
+font-size: 13px;
 }
 .rating_popular .fas {
   color: #0065fc;
@@ -133,7 +135,6 @@ img {
   height: 41px;
   text-align: center;
   display: inline-block;
-  padding-top: 9.5px;
   margin-left: -12px;
 }
 .ville__recherche{
