@@ -56,24 +56,22 @@ footer {
 }
 
 .footer_section {
-  font-size: 15px;
+  font-size: 19px;
   margin-top: -20px;
   margin-bottom: 6px;
 }
 
 .footer_section p{
-  font-size: 10px;
+  font-size: 16px;
   margin-top: -5px;
 }
 
 .rating{
-  margin-top: 32px;
   display: flex;
   font-size: 10px;
 }
 .rating_popular{
 display: flex;
-padding: 3px 5px 5px 6px;
 font-size: 13px;
 }
 .rating_popular .fas {
@@ -98,16 +96,19 @@ font-weight: 700;
 margin-left: 3px;
 }
 
-.fa-info-circle {
+.fa-info {
   color: #0065fc;
+  padding: 5px 9px;
+  border: 1px solid gray;
+  border-radius: 25px;
 }
 aside img {
-  border-radius: 25px 25px 0 0;
-  align-items: center;
-  width: 100%;
-  height: 135px;
-  object-fit: cover;
+  box-sizing: border-box;
   padding: 5px;
+  border-radius: 25px 0px 0px 25px;
+  width: 135px;
+  height: 120px;
+  float: left;
 }
 .fa-chart-line {
   float: right;
@@ -146,12 +147,12 @@ img {
 
 #hebergement {
   font-weight: bold;
-  border-bottom: 1px solid #0065fc;
+  border-bottom: 3px solid #0065fc;
   text-align: center;
   padding-bottom: 15px;
   color: #0065fc;
   width: 50%;
-  margin-left: 35px;
+  display: block;
 }
 #pseudo {
   color: black;
@@ -199,7 +200,9 @@ a {
 .activities {
   width: 50%;
   text-align: left;
-  margin-right: 40px;
+  border-bottom: 3px solid gray;
+  display: block;
+
 }
 
 #inscription {
@@ -237,7 +240,7 @@ a {
 }
 .icone{
   padding: 10px;
-  background-color: rgb(241, 241, 241);
+  background-color: #dedede;
   color: #0065fc;
   border-radius: 17px;
   margin-left: -1px;
@@ -290,8 +293,7 @@ a {
 .third {
   float: left;
   padding: 15px;
-  align-items: center;
-  border-radius: 20px;
+  align-items: center;;
 }
 .twothird {
   float: left;
@@ -318,27 +320,30 @@ a {
 }
 
 .card-container {
+  text-align: left;
+  align-items: center;
+  margin: 0;
+  padding: 0px 0px 0px 15px;
+}
+
+.card-aside {
+  width: 100%;
+  padding: 1px;
+  border-radius: 25px 25px 25px 25px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  margin: 5px 0;
+  margin-bottom: 10px;
+}
+.card-container-aside {
   width: 145px;
-  padding: 15px 0px 0px 0px;
+  padding: 15px 0px 0px 10px;
   margin-bottom: 21px;
   background-color: white;
   display: flex;
   flex-direction: column;
-}
-
-.card-aside {
-  height: 100%;
-  width: 100%;
-  margin: 7px 0;
-  border-radius: 25px 25px 25px 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 10px;
-}
-.card-container-aside {
-  text-align: left;
-  padding-left: 10px;
-  padding-right: 10px;
-
+  height: 100px;
+  position: relative;
 }
 
 .card-container-aside p {
@@ -361,17 +366,21 @@ a {
   margin-top: 25px;
 }
 .img-border-radius-top {
+  border-radius: 25px 25px 0 0;
+  align-items: center;
+  width: 100%;
+  height: 135px;
+  object-fit: cover;
+  padding: 5px;
+}
+}
+.img-border-radius-aside {
   box-sizing: border-box;
   padding: 5px;
   border-radius: 25px 0px 0px 25px;
   width: 135px;
   height: 120px;
   float: left;
-}
-.img-border-radius-aside {
-  box-sizing: border-box;
-  padding: 5px;
-  border-radius: 25px 25px 0px 0px;
 }
 
 
@@ -395,7 +404,6 @@ a {
   border-radius: 20px;
   box-shadow : 5px  5px  5px  rgba( 0 ,  0 ,  0 ,  .2 );
   width: 343px;
-  margin-left: -35px;
   object-fit: cover;
 }
 
@@ -489,7 +497,7 @@ padding: 5px;
     margin-top: 30px;
   }
   .menu > div {
-    text-align: right;
+    text-align: center;
     padding: 0 0 0 0;
   }
 
@@ -549,11 +557,7 @@ padding: 5px;
     width: 100%;
     background-color: #f2f2f2;
   }
-  .card-container-aside {
-    text-align: left;
-    align-items: center;
-    margin: 0;
-  }
+
 /* activité */
 section 
 {
@@ -565,6 +569,7 @@ section
 {
  flex-direction: column;
  width: auto;
+ margin: 0px;
 }
 .container
 {
