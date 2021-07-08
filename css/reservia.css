@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Raleway";
-  src: url('./Raleway-VariableFont_wght.ttf')  
+  src: url('./Raleway-VariableFont_wght.ttf');
+   
   }
 
 body {
@@ -22,7 +23,6 @@ header {
   justify-content: space-between;
 }
 
-}
 h1 
 {
   margin: 5px;
@@ -35,6 +35,7 @@ h2 {
   display: inline-block;
 }
 h3 {
+  font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
   font-size: 15px;
   margin-top: -3px;
 }
@@ -50,7 +51,7 @@ footer {
 }
 #annonce p {
   font-size: 13px;
-  margin-top: -4px;
+  margin-top: 0px;
   margin-left: 15px;
   margin-bottom: 12px;
 }
@@ -59,7 +60,7 @@ footer {
   font-size: 19px;
   margin-top: -20px;
   margin-bottom: 6px;
-  font-family: 'Raleway-Black', sans-serif;
+  font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
 }
 
 .footer_section p{
@@ -120,7 +121,7 @@ aside img {
   box-sizing: border-box;
 }
 .logo img {
-  width: 25%;
+  width: 7%;
   height: 100%;
 }
 
@@ -148,11 +149,15 @@ img {
 
 #hebergement {
   font-weight: bold;
-  border-bottom: 3px solid #0065fc;
+  border-bottom: 2px solid #0065fc;
   text-align: center;
   padding-bottom: 15px;
   color: #0065fc;
   width: 100%;
+  display: block;
+}
+#activities {
+  padding-bottom: 15px;
   display: block;
 }
 #pseudo {
@@ -199,9 +204,9 @@ a {
 }
 
 .activities {
-  width: 50%;
+  width: 100%;
   text-align: left;
-  border-bottom: 3px solid gray;
+  border-bottom: 2px solid gray;
   display: block;
 
 }
@@ -375,7 +380,7 @@ a {
   object-fit: cover;
   padding: 5px;
 }
-}
+
 .img-border-radius-aside {
   box-sizing: border-box;
   padding: 5px;
@@ -465,24 +470,28 @@ padding: 5px;
   body {
     width: 100%;  
     margin:0 ;
-    padding: 0;}
+    padding: 0;
+  }
   h1 {
     font-size: 20px;
     margin-left: 15px;
   }
-  .logo
-  {
+  .logo {
     width: 30%;
   }
   .logo img {
-    width: 80%;
+    width: 40%;
     height: 100%;
     margin-left: 10px;
     margin-top: 2px;
   }
-
-  
+  .third {
+  order: 1;
+    width: 50%;
+    background-color: #f2f2f2;
   }
+
+}
   .logocontainer {
     width: 100%;
     display: flex;
@@ -494,7 +503,6 @@ padding: 5px;
     height: 50px;
     align-items: flex-end;
     justify-content: space-around;
-    padding-bottom: 15px;
     border-bottom: solid #f2f2f2 2px;
     margin-top: 30px;
   }
@@ -515,7 +523,7 @@ padding: 5px;
     width: 70%;
   }
 
-  }
+  
   .annonce {
     width: 100%;
   }
