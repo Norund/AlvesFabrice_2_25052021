@@ -1,0 +1,45 @@
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+   /*media queries tablette */
+   h1{
+       color: red;
+   }
+   .card-aside , .card , .container {
+        width: 48%;
+    }
+    .third , .twothird , .activite {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .activite {
+        flex-direction: initial;
+    }
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1920px){
+    h1{
+        color: green;
+    }
+    .third {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 30%;
+        float: right;
+    }
+    .twothird {
+        display: inline-block;
+        column-count: 2;
+        width: 65%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: inherit;
+        justify-content: space-between;
+    }
+    .footer_section {
+        padding: 32px 32px;
+    }
+}
