@@ -21,6 +21,15 @@
     h1{
         color: green;
     }
+    #hebergement {
+        border-top: 2px solid #0065fc;
+        padding-top: 15px;
+        width: ;
+        border-bottom: none;
+    }
+    #ancreh {
+        column-count: 3;
+    }
     .third {
         display: flex;
         flex-wrap: wrap;
@@ -34,6 +43,11 @@
         column-count: 2;
         width: 65%;
     }
+    .twothird_act {
+    display: inline-flex;
+    align-items: stretch;
+    }
+   
     .footer {
         display: flex;
         flex-direction: inherit;
