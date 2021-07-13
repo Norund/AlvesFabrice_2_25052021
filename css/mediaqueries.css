@@ -21,14 +21,14 @@
     h1{
         color: green;
     }
+    .menu {
+        width: 30%;
+        margin-top: -21px;
+    }
     #hebergement {
         border-top: 2px solid #0065fc;
         padding-top: 15px;
-        width: ;
         border-bottom: none;
-    }
-    #ancreh {
-        column-count: 3;
     }
     .third {
         display: flex;
@@ -43,11 +43,10 @@
         column-count: 2;
         width: 65%;
     }
-    .twothird_act {
-    display: inline-flex;
-    align-items: stretch;
+    .activite{
+        flex-direction: initial;
+        flex-wrap: wrap;
     }
-   
     .footer {
         display: flex;
         flex-direction: inherit;
