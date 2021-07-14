@@ -26,6 +26,7 @@ header {
 h1 
 {
   margin: 5px;
+  margin-left: 11px;
 }
 h2 {
   width: 100%;
@@ -70,11 +71,13 @@ footer {
 
 .rating{
   display: flex;
-  font-size: 10px;
+  font-size: 12px;
+  margin: 0 0 0 -3px;
 }
 .rating_popular{
 display: flex;
 font-size: 13px;
+margin-top: 25px;
 }
 .rating_popular .fas {
   color: #0065fc;
@@ -146,7 +149,9 @@ img {
   justify-content: space-between;
   
 }
-
+.hebergement {
+  width: 100%;
+}
 #hebergement {
   font-weight: bold;
   border-bottom: 2px solid #0065fc;
@@ -206,7 +211,7 @@ a {
 .activities {
   width: 100%;
   text-align: left;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #80808029;
   display: block;
 
 }
@@ -302,7 +307,7 @@ a {
   padding: 15px;
   align-items: center;;
 }
-.twothird {
+.twothird, .twothird_act {
   float: left;
   width: 100%;
   padding: 2px;
@@ -330,7 +335,7 @@ a {
   text-align: left;
   align-items: center;
   margin: 0;
-  padding: 0px 0px 0px 15px;
+  padding: 0px 0px 10px 15px;
 }
 
 .card-aside {
@@ -466,7 +471,7 @@ padding: 5px;
   font-weight: bold;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   body {
     width: 100%;  
     margin:0 ;
@@ -607,4 +612,3 @@ section
     flex-direction: column;
     background-color: #f2f2f2;
   }
-}

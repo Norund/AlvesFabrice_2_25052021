@@ -24,11 +24,29 @@
     .menu {
         width: 30%;
         margin-top: -21px;
+        margin-right: 10px;
+    }
+    .logocontainer {
+        flex-direction: inherit;
+        margin-top: 19px;
+    }
+    .logo img {
+        width: 20%;
+        height: 37px;
+        margin-top: -12px;
+        margin-left: 11px;
     }
     #hebergement {
         border-top: 2px solid #0065fc;
         padding-top: 15px;
         border-bottom: none;
+    }
+    .activities {
+        border-bottom: none;
+    }
+    #inscription {
+        display: block;
+        position: inherit;
     }
     .third {
         display: flex;
