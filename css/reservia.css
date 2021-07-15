@@ -27,8 +27,17 @@ h1
 {
   margin: 5px;
   margin-left: 11px;
+  font-weight: bold;
+}
+.filtres_title h2 {
+  width: 100%;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
 }
 h2 {
+  font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
   width: 100%;
   font-size: 20px;
   margin-left: 15px;
@@ -40,7 +49,6 @@ h3 {
   font-size: 15px;
   margin-top: -3px;
 }
-
 footer {
   display: grid;
   align-content: end;
@@ -52,11 +60,13 @@ footer {
 }
 #annonce p {
   font-size: 13px;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-left: 15px;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
-
+.card p , .act_photo p {
+  font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
+}
 .footer_section {
   font-size: 19px;
   margin-top: -20px;
@@ -179,7 +189,7 @@ img {
 .bouton {
   background-color: #0065fc;
   color: white;
-  padding: 11px;
+  padding: 13px;
   border-style: hidden;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -195,7 +205,6 @@ img {
 a {
   color: black;
   text-decoration: none;
-  padding-bottom: 15px;
 }
 #ancreah{
   color: #0065fc;
@@ -219,6 +228,7 @@ a {
   position: absolute;
   top: 10px;
   right: 10px;
+  padding-bottom: 15px;
   color: #0065fc;
   text-decoration: none;
   font-weight: bold;
@@ -249,8 +259,8 @@ a {
   margin-right: 15px;
   font-weight: bold;
 }
-.filtres_item a:hover {
-  background-color: #0065fc;
+.filtres__item a:hover {
+  background-color: #0065fc34;
 }
 .icone{
   padding: 10px;
@@ -386,6 +396,7 @@ a {
   margin-left: 10px;
   font-weight: bold;
   margin-top: 25px;
+  font-family: 'Raleway-Black' , Arial, Helvetica, sans-serif;
 }
 .img-border-radius-top {
   border-radius: 25px 25px 0 0;
@@ -401,7 +412,7 @@ a {
   padding: 5px;
   border-radius: 25px 0px 0px 25px;
   width: 135px;
-  height: 137px;
+  height: 120px;
   float: left;
 }
 
@@ -425,7 +436,7 @@ a {
   background-color: white;
   border-radius: 20px;
   box-shadow : 5px  5px  5px  rgba( 0 ,  0 ,  0 ,  .2 );
-  width: 343px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -545,6 +556,7 @@ padding: 5px;
   .bouton {
     visibility: hidden;
     width: 0%;
+    margin-left: -4px;
   }
   .visible {
     visibility: visible;

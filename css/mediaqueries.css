@@ -14,12 +14,13 @@
 }
 
 
-@media screen and (min-width: 1201px) and (max-width: 1920px){
+@media screen and (min-width: 1201px) and (max-width: 1980px){
     /* vue desktop */
     .menu {
         width: 30%;
-        margin-top: -21px;
+        margin-top: -23px;
         margin-right: 10px;
+        border-bottom: none;
     }
     .logocontainer {
         flex-direction: inherit;
@@ -43,6 +44,9 @@
         width: 28%;
         display: inline-block;
     }
+    .filtres_title {
+        width: 0%;
+    }
     #hebergement {
         border-top: 2px solid #0065fc;
         padding-top: 15px;
@@ -65,6 +69,9 @@
         border-radius: 25px;
         margin-right: 20px;
     }
+    .img-border-radius-aside {
+        height: 143px;
+    }
     .twothird {
         width: 65%;
         display: flex;
@@ -73,6 +80,7 @@
         flex-wrap: wrap;
         background-color: #f2f2f2;
         border-radius: 25px;
+        margin-left: 10px;
     }
     .card {
         width: 32%;
@@ -87,8 +95,11 @@
     .footer_section {
         padding: 32px 32px;
     }
+    .act_photo {
+        width: 460px;
+    }
     .act_photo .taille1 {
-      height: 500px;
+        height: 500px;
     }
     .act_photo .taille2 {
         height: 220px;
@@ -99,11 +110,14 @@
     .act_photo .taille5 {
         height: 220px;
     }
-    .taille6 {
+    .act_photo .taille6 {
         height: 195px;
     }
     .colone_1 {
         float: right;
         height: 500px;
+    }
+    .container {
+        padding-bottom: 30px;
     }
 }
