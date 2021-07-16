@@ -8,6 +8,11 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    .twothird_act {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     .activite {
         flex-direction: initial;
     }
@@ -91,6 +96,7 @@
     }
     .footer {
         display: grid;
+        grid-template-columns: 30% 30% 30%;
     }
     .footer_section {
         padding: 32px 32px;
