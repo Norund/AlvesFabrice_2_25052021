@@ -23,6 +23,9 @@
     #colone_1 , #colone_2 , #colone_3 , #colone_4 {
         width: 48%;
     }
+    #colone_2 {
+        order: 1;
+    }
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1700px) {

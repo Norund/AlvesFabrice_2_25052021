@@ -6,7 +6,6 @@
 
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-  padding: 5px;
   margin: 0;
 }
 
@@ -95,7 +94,7 @@ margin-top: 25px;
 .rating_popular .far {
   color: rgba(128, 128, 128, 0.301);
   font-weight: 700;
-  margin-bottom: 2;
+  margin-bottom: 2px;
 }
 .rating .fas {
   margin-left: 4px;
