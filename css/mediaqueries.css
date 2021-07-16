@@ -29,7 +29,9 @@
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1700px) {
-    width: 350px;
+    .act_photo {
+        width: 350px;
+        }
 }
 
     
@@ -117,7 +119,7 @@
         padding: 32px 32px;
     }
     .act_photo {
-        width: 480px;
+        width: 460px;
     }
     .act_photo .taille1 {
         height: 500px;
