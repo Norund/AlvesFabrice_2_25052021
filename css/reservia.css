@@ -606,6 +606,8 @@ section
  flex-direction: column;
  width: auto;
  margin: 0px;
+ margin-right: 23px;
+ margin-left: 10px;
 }
 .container
 {
